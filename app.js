@@ -1,15 +1,14 @@
 const express = require("express");
 const ejs = require("ejs");
-// const mongoose = require("mongoose");
 const app = express();
 const _ = require("lodash");
 const { capitalize, startCase } = require("lodash");
 
 app.set("view engine", "ejs");
-app.use(express.json());
-app.use(express.urlencoded({
-    extended: true
-}));
+// app.use(express.json());
+// app.use(express.urlencoded({
+//     extended: true
+// }));
 
 app.use(express.static("public"));
 
