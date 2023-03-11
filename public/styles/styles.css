@@ -13,6 +13,7 @@ textarea {
 body{
     background-color: #F5F5F5 ;
     font-family: 'Century Gothic';
+    font-size: 1.2rem;
 }
 
 
@@ -29,6 +30,11 @@ nav{
     font-weight: 600;
     letter-spacing: 0.1cap;
 }
+
+#welcome-txt{
+    font-size: 4rem;
+}
+
 .navbar-brand:hover{
     color: #FF065B;
  }
