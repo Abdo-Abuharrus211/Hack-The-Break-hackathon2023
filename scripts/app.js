@@ -12,13 +12,13 @@ app.use(express.urlencoded({
 
 app.use(express.static("public"));
 
-//connecting to our MongoDB Atlas cluster...
-mongoose.connect("mongodb://0.0.0.0:27017/journalDB");
+// //connecting to our MongoDB Atlas cluster...
+// mongoose.connect("mongodb://0.0.0.0:27017/journalDB");
 
 
 
 app.get("/", function(req, res){
-  res.send("Hello");
+  res.render("home");
 });
 
 app.listen(3000, function(){
