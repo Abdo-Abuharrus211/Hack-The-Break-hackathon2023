@@ -37,31 +37,33 @@
             <form>
                 <div class="form-group">
                     <label for="interests">What are your interests?</label>
-                    <input type="text" class="form-control" id="interests">
+                    <textarea class="form-control" id="interests" rows="3"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="coding_level">Coding Level</label>
-                    <select class="form-control" id="coding_level">
-                        <option>Beginner</option>
-                        <option>Intermediate</option>
-                        <option>Advanced</option>
-                        <option>Expert</option>
-                    </select>
+                    <label for="language-group">What coding languages are you familiar with?</label>
+                    <div class="language-group">
+                        <label for="python_exp" class="form-label">Python</label>
+                        <input type="range" class="range" min="0" max="100" id="python_exp" class="slider">
+                    </div>
+                    <div class="language-group">
+                        <label for="java_exp" class="form-label">Java</label>
+                        <input type="range" class="range" min="0" max="100" id="java_exp" class="slider">
+                    </div>
+                    <div class="language-group">
+                        <label for="c_exp" class="form-label">C</label>
+                        <input type="range" class="range" min="0" max="100" id="c_exp" class="slider">
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">What coding languages are you familiar with?</label>
-                    <textarea class="form-control" id="languages_familiar" rows="3"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">What coding languages would you like to explore?</label>
+                    <label for="languages_explore">What coding languages would you like to explore?</label>
                     <textarea class="form-control" id="languages_explore" rows="3"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">What frameworks are you familiar with?</label>
+                    <label for="frameworks_familiar">What frameworks are you familiar with?</label>
                     <textarea class="form-control" id="frameworks_familiar" rows="3"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">What frameworks would you like to explore?</label>
+                    <label for="frameworks_explore">What frameworks would you like to explore?</label>
                     <textarea class="form-control" id="frameworks_explore" rows="3"></textarea>
                 </div>
                 <br>
