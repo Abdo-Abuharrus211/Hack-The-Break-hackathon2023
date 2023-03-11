@@ -18,7 +18,10 @@ app.use(express.static("public"));
 
 
 app.get("/", function(req, res){
-  res.render("home");
+  // res.render("home");
+  // res.sendFile("./views/home.ejs")
+  // res.send("Justine is awesome!");
+  res.redirect('views\home.ejs');
 });
 
 app.listen(3000, function(){
