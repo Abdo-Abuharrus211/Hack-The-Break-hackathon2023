@@ -1,9 +1,10 @@
 const express = require("express");
 const ejs = require("ejs");
-const bodyParser = require("body-parser");
-const lodash = require("lodash");
-
+// const mongoose = require("mongoose");
 const app = express();
+const _ = require("lodash");
+const { capitalize, startCase } = require("lodash");
+
 app.set("view engine", "ejs");
 app.use(express.json());
 app.use(express.urlencoded({
@@ -12,13 +13,13 @@ app.use(express.urlencoded({
 
 app.use(express.static("public"));
 
-//connecting to our MongoDB Atlas cluster...
-mongoose.connect("mongodb://0.0.0.0:27017/journalDB");
+// //connecting to our MongoDB Atlas cluster...
+// mongoose.connect("mongodb://0.0.0.0:27017/journalDB");
 
 
 
 app.get("/", function(req, res){
-  res.send("Hello");
+  res.render("home");
 });
 
 app.listen(3000, function(){
