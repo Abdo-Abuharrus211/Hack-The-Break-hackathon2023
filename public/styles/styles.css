@@ -11,6 +11,8 @@ body{
     font-family: 'Century Gothic';
 }
 
+
+/* Navbar Stuff */
 nav{
     background-color: #232931;
 }
@@ -24,3 +26,9 @@ nav{
 .navbar-brand:hover{
     color: #FF065B;
  }
+
+/* Welcome banner stuff */
+
+#welcome-banner{
+    margin: 5%;
+}
