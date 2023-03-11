@@ -1,9 +1,10 @@
 const express = require("express");
 const ejs = require("ejs");
-const bodyParser = require("body-parser");
-const lodash = require("lodash");
-
+// const mongoose = require("mongoose");
 const app = express();
+const _ = require("lodash");
+const { capitalize, startCase } = require("lodash");
+
 app.set("view engine", "ejs");
 app.use(express.json());
 app.use(express.urlencoded({
