@@ -41,6 +41,9 @@
     </header>
 
     <main>
+        
+
+        <!-- Questionaire Form -->
         <div id="questionaire-form" class="container">
             <form>
                 <div class="form-group">
@@ -61,7 +64,7 @@
                         <label for="c_exp" class="form-label">C</label>
                         <input type="range" class="range" min="0" max="100" id="c_exp" class="slider">
                     </div>
-                    <input type="button" value="Add Language" class="text-end">
+                    <input type="button" value="Add Language" class="">
                 </div>
                 <div class="form-group">
                     <label for="languages_explore">What coding languages would you like to explore?</label>
@@ -88,8 +91,9 @@
     <%- include("partials/footer") %>
 
 
-    <script src="app.js"></script>
-    <script src="/scripts/template.js"></script>
+    <script src="app.js"></script>'
+    <script src="/scripts/firebaseAPI_CodeGoals.js"></script>
+    <script src="/scripts/authentication.js"></script>
 </body>
 
 </html>
