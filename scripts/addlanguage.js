@@ -8,6 +8,6 @@ $(document).ready(
                 <input type="range" class="range" min="0" max="100" class="slider">
             </div>
             `
-        )
+        );
     })
-)
+);
