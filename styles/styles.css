@@ -27,7 +27,6 @@ input[type="text"] {
 }
 /* main page styles */
 body{
-    background-color: #F5F5F5 ;
     font-family: 'Century Gothic', 'Futura';
     /* font-size: 1.2rem; */
 }
@@ -90,16 +89,15 @@ nav{
 
 /* Index Stuff */
 
-#about-section{
+#intro-section{
     border: 1px solid #66BFBF;
     border-radius: 15px;
-    padding: 5%;
     margin: 5% 12%;
     font-size: 1.2rem;
 }
-.about-box{
-    text-align: center;
-    padding: 1rem;
+
+.intro-img{
+    width: 80%;
 }
 
 /* Bubbles Stuff */
