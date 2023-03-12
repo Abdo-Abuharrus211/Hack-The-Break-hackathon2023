@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(
     $("#addlanguage").click(function () {
         $(".more-languages").append(

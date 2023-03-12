@@ -25,13 +25,6 @@ app.get("/", function(req, res){
 });
 
 
-app.get("/bubbles", function(req, res){
-  res.render("bubbles");
-  // res.sendFile("./views/home.ejs")
-  // res.send("Justine is awesome!");
-  // res.sendFile(_dirname + "/views/home.ejs");
-});
-
 app.listen(3000, function(){
   console.log("Server started on port 3000.");
 });
