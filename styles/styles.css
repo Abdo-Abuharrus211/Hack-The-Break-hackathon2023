@@ -3,16 +3,32 @@
     margin: none;
 }
 .language-group {
+    width: 45%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 textarea {
     border-radius: 15px !important;
 }
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+}
+input[type="button"] {
+    border-radius: 15px;
+}
+input[type="text"] {
+    width: 125px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+}
 /* main page styles */
 body{
     background-color: #F5F5F5 ;
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic', 'Futura';
     font-size: 1.2rem;
 }
 
@@ -39,15 +55,33 @@ nav{
     color: #FF065B;
  }
 
+ .navbar-togl-icon{
+    width: 10%;
+ }
 /* Welcome banner stuff */
 
 #welcome-banner{
     text-align: center;
     margin-bottom: 5%;
 }
+#welcome-txt{
+    color: #FF065B;
+}
 
 
-/* Main Stuff */
+/* Index Stuff */
+
+#about-section{
+    border: 1px solid #66BFBF;
+    border-radius: 15px;
+    margin: 10% 7%;
+}
+.about-box{
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Bubbles Stuff */
 #bubbles {
     position: absolute;
     width: 100vw;

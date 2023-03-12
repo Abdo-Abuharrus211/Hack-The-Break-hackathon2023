@@ -23,8 +23,8 @@
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
 
     <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Home</title>
-
 </head>
 
 <body>
@@ -32,11 +32,10 @@
     <header>
         <nav id="my-navbar"></nav>
         <div id="welcome-banner" class="container text-center">
-            <img src="/images/Landing-blue.svg" alt="">
             <div class="container">
-                <h1 id="welcome-txt">Welcome to CodeGoals!</h1>
-                <h3>Here we take you from beginner to WINNERRR!!!</h3>
-                <p>Fill out the form to generate amazing ideas that will blow your mind!</p>
+                <h2 id="welcome-txt">Tell us about you!</h2>
+                <h4>Fill out the form and pop the bubbles so we can help you out</h4> 
+                <!-- <p>Fill out the form to generate amazing ideas that will blow your mind!</p>    -->
             </div>
         </div>
     </header>
@@ -68,9 +67,7 @@
                     <div class="more-languages">
                         
                     </div>
-                    <input type="button" value="Add Language" id="addLanguage">
-                    <input type="button" value="Cancel" id="cancelLanguage" style="display: none">
-
+                    <input type="button" value="Add Language" id="addlanguage">
                 </div>
                 <div class="form-group">
                     <label for="languages_explore">What coding languages would you like to explore?</label>
@@ -79,36 +76,19 @@
                 <br>
                 <input type="button" value="SUBMIT">
             </form>
-    <section id="about-section">
-        <div class="container about-box">
-            <h2>What is CodeGoals?</h2>
-            <p>Have you ever wanted to do a project about something you're 
-                passionate about but don't know where to start?
-                We got you, friend. <br>
-                Answer some questions, play with some bubbles and we'll come up with something for you!
-            </p>
         </div>
 
         <div id="answer-box">
             <!-- append answer text here... -->
-    <section id="about-section">
-        <div class="container about-box">
-            <h2>What is CodeGoals?</h2>
-            <p>Have you ever wanted to do a project about something you're 
-                passionate about but don't know where to start?
-                We got you, friend. <br>
-                Answer some questions, play with some bubbles and we'll come up with something for you!
-            </p>
         </div>
-    </section>
+    </main>
     <footer id="my-footer"></footer>
-    <script src="app.js"></script>'
-    <script src="/scripts/firebaseAPI_TEAM99.js"></script>
-    <script src="/scripts/authentication.js"></script>
-    <script src="scripts/skeleton.js"></script>
-    <script src="./scripts/bubbles.js"></script>
-    <script src="./scripts/button.js"></script>
 
+    <script src="app.js"></script>'
+    <script src="/scripts/firebaseAPI_CodeGoals.js"></script>
+    <script src="/scripts/authentication.js"></script>
+    <script src="/scripts/addlanguage.js"></script>
+    <script src="scripts/skeleton.js"></script>
 </body>
 
 </html>
