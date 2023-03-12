@@ -69,7 +69,18 @@ nav{
 }
 
 
-/* Main Stuff */
+/* Index Stuff */
+
+#about-section{
+    border: 1px solid #FF065B;
+    border-radius: 15px;
+    margin: 7%;
+}
+.about-box{
+    text-align: center;
+}
+
+/* Bubbles Stuff */
 #bubbles {
     position: absolute;
     width: 100vw;
