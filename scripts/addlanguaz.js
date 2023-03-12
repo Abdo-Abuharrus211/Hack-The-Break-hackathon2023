@@ -44,7 +44,10 @@ function submitLanguage() {
     moreLanguagesDiv.innerHTML += `<div class="language-group">
                             <label for="c_exp" class="form-label">${newLanguage.value}</label>
                             <input type="range" class="range" min="0" max="100" id="c_exp" class="slider">`;
-    
+    cancelLanguageButton.style.display = "none";
+    submitLanguageButton.style.display = "none";
+    addLanguageButton.style.display = "block";
+
     
 }
 
