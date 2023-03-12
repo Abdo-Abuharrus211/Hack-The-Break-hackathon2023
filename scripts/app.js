@@ -1,5 +1,5 @@
 
-// SCRAPPED, THIS BROKE OUR PROJ
+// SCRAPPED, THIS BROKE OUR PROJ!
 
 const express = require("express");
 const ejs = require("ejs");
