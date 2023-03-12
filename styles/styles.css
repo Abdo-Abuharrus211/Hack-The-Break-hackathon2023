@@ -74,6 +74,18 @@ nav{
     color: #FF065B;
 }
 
+.landing-background {
+    background-image: url("/images/Landing-blue.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
 
 /* Index Stuff */
