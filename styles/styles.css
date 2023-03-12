@@ -37,8 +37,6 @@ body{
 /* Navbar Stuff */
 nav{
     background-color: #232931;
-    margin-bottom: 5%;
-
 }
 .navbar-brand{
     margin: 0 2%;
@@ -62,12 +60,17 @@ nav{
 /* Welcome banner stuff */
 
 #welcome-banner{
-    text-align: center;
     margin-bottom: 5%;
+    padding: 3%;
+    color: #F5F5F5;
+    background-image: url("/images/Landing-blue.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #welcome-txt{
     color: #FF065B;
 }
+
 
 
 /* Index Stuff */
@@ -75,7 +78,8 @@ nav{
 #about-section{
     border: 1px solid #66BFBF;
     border-radius: 15px;
-    margin: 10% 7%;
+    padding: 5%;
+    margin: 10% 12%;
 }
 .about-box{
     text-align: center;

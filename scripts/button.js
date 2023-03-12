@@ -1,4 +1,3 @@
-console.log("fuck this")
 var addLanguageButton;
 var cancelButton;
 
