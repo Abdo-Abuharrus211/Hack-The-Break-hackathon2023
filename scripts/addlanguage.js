@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
     $("#addLanguage").click(function () {
+        console.log("this works")
         $(".more-languages").append(
             `
             <div class="language-group">
