@@ -30,8 +30,7 @@
 <body>
 
     <header>
-        <%- include("partials/navbar") %>
-
+        <nav id="my-navbar"></nav>
         <div id="welcome-banner" class="container text-center">
             <div>
                 <h1 id="welcome-txt">Welcome to CodeGoals!</h1>
@@ -83,14 +82,13 @@
             <!-- append answer text here... -->
         </div>
     </main>
-
-    <%- include("partials/footer") %>
-
+    <footer id="my-footer"></footer>
 
     <script src="app.js"></script>'
     <script src="/scripts/firebaseAPI_CodeGoals.js"></script>
     <script src="/scripts/authentication.js"></script>
     <script src="/scripts/addlanguage.js"></script>
+    <script src="scripts/skeleton.js"></script>
 </body>
 
 </html>
