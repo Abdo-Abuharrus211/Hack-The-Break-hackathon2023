@@ -1,3 +1,11 @@
+$(document).ready(function() {
+  $("#bubl-next-button").click(function() {
+    window.location.href = "/main.html";
+  });
+});
+
+
+// Bubble generator
 var nodes = new vis.DataSet([
   { label: "Knitting" },
   { label: "Music" },
@@ -62,3 +70,5 @@ container.on("mouse-wheel", function (event) {
   // prevents zooming with the mouse-wheel event
   event.stopPropagation();
 });
+
+
