@@ -12,10 +12,13 @@ var nodes = new vis.DataSet([
 ]);
 var edges = new vis.DataSet();
 
+var ideas = ["Calculate your gauge swatch for a sweater using Python", "Create an MP3 player frame using HTML, Javascript, and CSS", "Create a wardrobe catalogue using Python"];
+
 var container = document.getElementById('bubbles');
 var data = {
   nodes: nodes,
-  edges: edges
+  edges: edges,
+  ideas: ideas
 };
 
 var options = {
@@ -37,9 +40,23 @@ network.on("click", function (e) {
   if (e.nodes.length) {
     var node = nodes.get(e.nodes[0]);
     // Do something
+    if (node.label === "Knitting") {
+      console.log(ideas[0]);
+      document.getElementById("idea").innerHTML = ideas[0];
+    }
+    if (node.label === "Music") {
+      console.log(ideas[1]);
+      document.getElementById("idea").innerHTML = ideas[1];
+    }
+    if (node.label === "Fashion") {
+      console.log(ideas[2]);
+      document.getElementById("idea").innerHTML = ideas[2];
+    }
     nodes.update(node);
   }
 });
+
+
 
 container.on("mouse-wheel", function (event) {
   // prevents zooming with the mouse-wheel event
