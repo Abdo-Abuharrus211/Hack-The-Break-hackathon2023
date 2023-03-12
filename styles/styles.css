@@ -3,11 +3,27 @@
     margin: none;
 }
 .language-group {
+    width: 45%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 textarea {
     border-radius: 15px !important;
+}
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+}
+input[type="button"] {
+    border-radius: 15px;
+}
+input[type="text"] {
+    width: 125px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
 }
 /* main page styles */
 body{
