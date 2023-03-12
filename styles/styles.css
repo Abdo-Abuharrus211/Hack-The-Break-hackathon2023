@@ -109,3 +109,16 @@ nav{
     top: 0;
     left: 0;
   }
+
+
+
+  #chris-python{
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    margin-bottom: 5%;
+    color: #F5F5F5;
+    background-image: url("/images/green-tree-python-python-tree-python-green-45246.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
