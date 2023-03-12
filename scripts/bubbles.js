@@ -12,7 +12,7 @@ var nodes = new vis.DataSet([
 ]);
 var edges = new vis.DataSet();
 
-var ideas = ["Calculate your gauge swatch for a sweater using Python", "Create an MP3 player frame using HTML, Javascript, and CSS", "Create a wardrobe catalogue using Python"];
+var ideas = ["Calculate your gauge swatch for a sweater using Python", "Create an MP3 player frame using HTML, CSS, and Javascript.", "Create a wardrobe catalogue using Python"];
 
 var container = document.getElementById('bubbles');
 var data = {
