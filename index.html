@@ -23,17 +23,74 @@
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
 
     <link rel="stylesheet" href="./styles/styles.css">
-    <script src="app.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Home</title>
 </head>
 
 <body>
-    <header></header>
-    <main>
-    </main>
-    <footer></footer>
 
-    <script src="app.js"></script>
+    <header>
+        <%- include("partials/navbar") %>
+
+        <div id="welcome-banner" class="container text-center">
+            <div>
+                <h1 id="welcome-txt">Welcome to CodeGoals!</h1>
+                <h5>Here we take you from beginner to WINNERRR!!!</h5>    
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+
+        <!-- Questionaire Form -->
+        <div id="questionaire-form" class="container">
+            <form>
+                <div class="form-group">
+                    <label for="interests">What are your interests?</label>
+                    <textarea class="form-control" id="interests" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="language-group">How experienced are you with these coding languages?</label>
+                    <div class="language-group">
+                        <label for="python_exp" class="form-label">Python</label>
+                        <input type="range" class="range" min="0" max="100" id="python_exp" class="slider">
+                    </div>
+                    <div class="language-group">
+                        <label for="java_exp" class="form-label">Java</label>
+                        <input type="range" class="range" min="0" max="100" id="java_exp" class="slider">
+                    </div>
+                    <div class="language-group">
+                        <label for="c_exp" class="form-label">C</label>
+                        <input type="range" class="range" min="0" max="100" id="c_exp" class="slider">
+                    </div>
+                    <div class="more-languages">
+                        
+                    </div>
+                    <input type="button" value="Add Language" id="addlanguage">
+                    <!-- <button id="addlanguage">Add Language</button> -->
+                </div>
+                <div class="form-group">
+                    <label for="languages_explore">What coding languages would you like to explore?</label>
+                    <textarea class="form-control" id="languages_explore" rows="3"></textarea>
+                </div>
+                <br>
+                <input type="button" value="SUBMIT">
+            </form>
+        </div>
+
+        <div id="answer-box">
+            <!-- append answer text here... -->
+        </div>
+    </main>
+
+    <%- include("partials/footer") %>
+
+
+    <script src="app.js"></script>'
+    <script src="/scripts/firebaseAPI_CodeGoals.js"></script>
+    <script src="/scripts/authentication.js"></script>
+    <script src="/scripts/addlanguage.js"></script>
 </body>
 
 </html>
