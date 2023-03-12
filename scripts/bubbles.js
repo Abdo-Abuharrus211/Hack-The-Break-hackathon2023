@@ -1,6 +1,6 @@
-$(document).ready(function() {
-  $("#bubl-next-button").click(function() {
-    window.location.href = "/main.html";
+$(document).ready(function () {
+  $("#bubl-next-button").click(function () {
+      window.location.href = "/main.html";
   });
 });
 
