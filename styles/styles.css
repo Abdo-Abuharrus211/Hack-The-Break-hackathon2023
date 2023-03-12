@@ -36,7 +36,7 @@ body{
 
 /* Navbar Stuff */
 nav{
-    background-color: #232931;
+    background-color: #2C394B;
 }
 .navbar-brand{
     margin: 0 2%;
@@ -60,13 +60,17 @@ nav{
 /* Welcome banner stuff */
 
 #welcome-banner{
+    height: 80vh;
+    min-height: 500px;
     margin-bottom: 5%;
-    padding: 3%;
     color: #F5F5F5;
     background-image: url("/images/Landing-blue.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+ .banner-content{
+    margin: 5% 7%;
+ }
 #welcome-txt{
     color: #FF065B;
 }
@@ -91,7 +95,7 @@ nav{
     border: 1px solid #66BFBF;
     border-radius: 15px;
     padding: 5%;
-    margin: 10% 12%;
+    margin: 5% 10%;
 }
 .about-box{
     text-align: center;
