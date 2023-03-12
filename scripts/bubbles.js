@@ -30,13 +30,15 @@ var data = {
 };
 
 var options = {
-  nodes: { borderWidth: 0, shape: "circle", color: { background: '#F92C55', highlight: { background: '#F92C55', border: '#F92C55' } }, font: { color: '#fff' } },
+  // bubble style see here, don't put units in the font size
+  nodes: { borderWidth: 0, shape: "circle", color: { background: '#66BFBF',  highlight: { background: '#66BFBF', border: '#66BFBF'} }, font: { color: '#fff', size:25} },
   physics: {
     stabilization: false,
     minVelocity: 0.01,
     solver: "repulsion",
     repulsion: {
-      nodeDistance: 40
+      // distance between bubbles
+      nodeDistance: 65,
     }
   }
 };
