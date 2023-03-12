@@ -94,7 +94,8 @@ nav{
     border: 1px solid #66BFBF;
     border-radius: 15px;
     padding: 5%;
-    margin: 5% 10%;
+    margin: 5% 12%;
+    font-size: 1.2rem;
 }
 .about-box{
     text-align: center;
