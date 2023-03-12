@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#banner-button").click(function() {
       // $('#bubbles-audio')[0].play();
       audio.play();
-      window.location.href = "/bubbles.html";
+      window.location.href = "/main.html";
     });
   });
   
