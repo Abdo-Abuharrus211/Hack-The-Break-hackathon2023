@@ -55,11 +55,17 @@ nav{
     color: #FF065B;
  }
 
+ .navbar-togl-icon{
+    width: 10%;
+ }
 /* Welcome banner stuff */
 
 #welcome-banner{
     text-align: center;
     margin-bottom: 5%;
+}
+#welcome-txt{
+    color: #FF065B;
 }
 
 
